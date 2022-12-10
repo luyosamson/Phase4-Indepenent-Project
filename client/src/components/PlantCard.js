@@ -43,7 +43,7 @@ fetch(`http://localhost:6001/plants/${item.id}`,{
     <li className="card">
       <img src={item.image} alt={"plant name"} />
       <h4>{item.name}</h4>
-      <p><button onClick={handlePriceClick}>Price: {item.price}</button></p>
+      <p><button onClick={handlePriceClick} className="updatedPrice">Price: {item.price}</button></p>
 
       {inStock ? (
         <button className="primary" onClick={onStockToggle}>In Stock</button>
@@ -51,16 +51,23 @@ fetch(`http://localhost:6001/plants/${item.id}`,{
         <button onClick={onStockToggle}>Sold Out</button>
       )}
       <button className="secondary" onClick={handleDelete}>Delete</button>
+
        <form onSubmit={handlePriceClick}>
         <input
+          className="updateprice"
           type="number"
           step="0.01"
           placeholder="New price..."
           value={priceCurrent}
-          onChange={(e) => setPrice(parseFloat(e.target.value))}
-        />
-        <button type="submit">Update Price</button>
-      </form>
+          onChange={(e) => setPrice(parseFloat(e.target.value))}   />
+         
+          
+     
+         <button type="submit">Update Price</button>
+
+          </form>
+       
+      
     
     </li>
   );

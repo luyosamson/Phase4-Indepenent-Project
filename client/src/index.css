@@ -10,6 +10,7 @@
 
 body {
   font-family: "Playfair Display", serif;
+  background-color: pink;
 }
 
 h2 {
@@ -26,6 +27,7 @@ button {
 button.primary {
   background-color: var(--green);
   color: white;
+  border-radius: 10px;
 }
 button.secondary:hover {
   background-color: red;
@@ -62,7 +64,9 @@ main {
 }
 
 .new-plant-form form {
-  display: flex;
+  display:flex;
+  justify-content: space-between;
+  margin: 0 10px;
   justify-content: center;
 }
 
@@ -77,9 +81,9 @@ main {
 
 .searchbar {
   padding: 1rem;
-  display:block;
+  display:flex;
   flex-direction: column;
-  width: 100px;
+  width: 500px;
 }
 
 label {
@@ -140,6 +144,22 @@ input:focus {
     width: calc(20% - 2rem);
   }
 }
-.delete{
+.secondary:hover{
   background-color: red;
+  
+}
+.secondary{
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.updateprice{
+
+  font-size:20px;
+  margin-top: 5px;
+  font:var(--green)
+}
+.updatedPrice{
+  font-size: 15px;
+
+
 }
