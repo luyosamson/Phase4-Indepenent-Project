@@ -24,7 +24,7 @@ function RenovationCard({ renovation, user, handleUpdateRenovation }) {
       <h4>Title: {renovation.title}</h4>
       <h4>Location: {renovation.location}</h4>
       <h4>Room: {renovation.room}</h4>
-      <h4>Cost: ${renovation.cost}</h4>
+      <h4>Cost: Ksh.{renovation.cost}</h4>
       <img src={renovation.before_image} alt="Not Available" />
       <img src={renovation.during_image} alt="Not Available" />
       <img src={renovation.after_image} alt="Not Available" />
