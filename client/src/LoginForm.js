@@ -52,7 +52,7 @@ function LoginForm({ onLogin, setErrors }) {
           value={passwordConfirmation}
           onChange={(e) => setPasswordConfirmation(e.target.value)}
         />
-        <button type="submit">Submit</button>
+        <button className="login"     type="submit">Submit</button>
       </form>
     </div>
   );
