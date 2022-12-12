@@ -61,7 +61,7 @@ function App() {
   return (
     <div>
       <NavBar user={user} setUser={setUser} />
-      <button type="button" onClick={handleLogoutClick}>
+      <button type="button" onClick={handleLogoutClick} className="logout"    >
           Logout
      </button>
       <Switch>
