@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Phase4-Indepenent-Project/static/css/main.594bdde1.chunk.css",
+    "main.js": "/Phase4-Indepenent-Project/static/js/main.424604dc.chunk.js",
+    "main.js.map": "/Phase4-Indepenent-Project/static/js/main.424604dc.chunk.js.map",
+    "runtime-main.js": "/Phase4-Indepenent-Project/static/js/runtime-main.b3de8011.js",
+    "runtime-main.js.map": "/Phase4-Indepenent-Project/static/js/runtime-main.b3de8011.js.map",
+    "static/js/2.a61b5aaf.chunk.js": "/Phase4-Indepenent-Project/static/js/2.a61b5aaf.chunk.js",
+    "static/js/2.a61b5aaf.chunk.js.map": "/Phase4-Indepenent-Project/static/js/2.a61b5aaf.chunk.js.map",
+    "static/js/3.07e880f7.chunk.js": "/Phase4-Indepenent-Project/static/js/3.07e880f7.chunk.js",
+    "static/js/3.07e880f7.chunk.js.map": "/Phase4-Indepenent-Project/static/js/3.07e880f7.chunk.js.map",
+    "index.html": "/Phase4-Indepenent-Project/index.html",
+    "static/css/main.594bdde1.chunk.css.map": "/Phase4-Indepenent-Project/static/css/main.594bdde1.chunk.css.map",
+    "static/js/2.a61b5aaf.chunk.js.LICENSE.txt": "/Phase4-Indepenent-Project/static/js/2.a61b5aaf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3de8011.js",
+    "static/js/2.a61b5aaf.chunk.js",
+    "static/css/main.594bdde1.chunk.css",
+    "static/js/main.424604dc.chunk.js"
+  ]
+}
