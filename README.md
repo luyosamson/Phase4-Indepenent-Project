@@ -1,6 +1,15 @@
 # Renovat8 - The Crowdsourced Renovation Site
-## The website is monolithic.
-[It is live Here](https://phase4-production.up.railway.app/)
+### The Frontend and Backed are hosted separately which can be accessed through the following links
+[Backend link](https://phase4-production.up.railway.app/)\
+[Frontend link]( https://luyosamson.github.io/Phase4-Indepenent-Project/)
+
+## Endpoints
+
+GET\renovations\
+POST\renovations\
+DELETE\renovation\
+GET\new_renovations\
+GET\my_renovations
 
 
 ## Description
