@@ -44,6 +44,7 @@ body {
   height: 75%;
   padding-top: 20px;
   padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 #loginform {
@@ -131,4 +132,16 @@ input:focus {
 font-size: 20px;
 color:green;
 
+}
+.logout{
+
+ 
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+
+}
+.logout:hover{
+
+  background-color: red;
 }
